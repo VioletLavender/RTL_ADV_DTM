@@ -1,0 +1,5 @@
+--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"
+-I.\RTE\_Rafael_BLE_DTM_DEMO
+-ID:\Keil_v5\ARM\CMSIS\Include
+--pd "__UVISION_VERSION SETA 526"
+--list .\listings\startup_mm32f032xx_s_keil.lst --xref -o .\objects\startup_mm32f032xx_s_keil.o --depend .\objects\startup_mm32f032xx_s_keil.d "..\..\..\..\3_Device\MM32F032xx_s\Source\KEIL_StartAsm\startup_MM32F032xx_s_KEIL.s"

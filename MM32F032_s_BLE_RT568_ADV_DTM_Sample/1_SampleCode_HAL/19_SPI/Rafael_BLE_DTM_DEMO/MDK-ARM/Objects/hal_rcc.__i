@@ -1,0 +1,5 @@
+-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\3_Device\CMSIS\KEIL_CORE -I ..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\inc -I ..\..\..\..\3_Device\MM32F032xx_s\Include -I ..\Peripheral\inc -I ..\BSP\inc -I ..\APP\inc -I ..\APP\rf_source\rf_include
+-I.\RTE\_Rafael_BLE_DTM_DEMO
+-ID:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="526" -DUSE_STDPERIPH_DRIVER
+-o .\objects\hal_rcc.o --omf_browse .\objects\hal_rcc.crf --depend .\objects\hal_rcc.d "..\..\..\..\3_Device\MM32F032xx_s\HAL_lib\src\HAL_rcc.c"
